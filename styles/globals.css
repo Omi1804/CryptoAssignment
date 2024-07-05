@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +9,21 @@
 }
 
 body {
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  background-color: #080808;
+}
+
+button {
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+  color: inherit;
 }
