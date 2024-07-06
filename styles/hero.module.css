@@ -46,11 +46,33 @@
   mix-blend-mode: plus-lighter;
 }
 
+.toggleBtnCont {
+  position: sticky;
+  bottom: 3rem;
+}
+
 .toggleBtn {
   border: 1px solid rgba(255, 255, 255, 0.07);
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 4px 10px #0000001a;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  z-index: 10;
+}
+
+.creatorCont {
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.creatorCont::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background: linear-gradient(to bottom, #00000000, #000000a9);
   z-index: 10;
 }

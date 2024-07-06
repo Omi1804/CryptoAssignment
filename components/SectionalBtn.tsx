@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import styles from "@/styles/hero.module.css";
 
-const ToggleBtn = () => {
+const SectionalBtn = () => {
   const [isActive, setIsActive] = useState("essentials");
+
   return (
-    <div className="sticky  bottom-[3rem] w-full flex items-center justify-center z-10">
+    <div
+      className={`w-full flex items-center justify-center z-10 ${styles.toggleBtnCont}`}
+    >
       <div
         className={`flex items-center my-[4rem] rounded-full cursor-pointer w-[340px] ${styles.toggleBtn}`}
       >
@@ -37,4 +40,4 @@ const ToggleBtn = () => {
   );
 };
 
-export default ToggleBtn;
+export default SectionalBtn;
