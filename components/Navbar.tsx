@@ -4,7 +4,7 @@ import styles from "@/styles/headers.module.css";
 const Navbar = () => {
   return (
     <nav
-      className={` top-0 left-0 w-full px-[5.5rem] flex items-center border-b border-b-[rgba(255,255,255,.15)] justify-center ${styles.navbar}`}
+      className={`fixed z-50 top-0 left-0 w-full px-[5.5rem] flex items-center border-b border-b-[rgba(255,255,255,.15)] justify-center ${styles.navbar}`}
     >
       <div className=" w-[7rem] h-auto object-contain">
         <img
