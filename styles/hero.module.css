@@ -3,3 +3,54 @@
   transform: translate(-50%, -50%);
   top: 42%;
 }
+
+.distImg {
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.distImg::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  -webkit-backdrop-filter: blur(0.5px);
+  backdrop-filter: blur(0.5px);
+  background: linear-gradient(to bottom, #00000000, #000000a9);
+  z-index: 10;
+}
+
+.distTexts {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.117px;
+  z-index: 1000;
+}
+
+.distTexts > h2 {
+  color: #fff9;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  line-height: 30px;
+  mix-blend-mode: plus-lighter;
+}
+
+.distTexts > p {
+  color: var(--White-40, rgba(255, 255, 255, 0.4));
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 20px;
+  mix-blend-mode: plus-lighter;
+}
+
+.toggleBtn {
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 10px #0000001a;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}

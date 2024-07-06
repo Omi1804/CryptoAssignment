@@ -1,9 +1,8 @@
-import React from "react";
 import styles from "@/styles/hero.module.css";
 
-const Hero = () => {
+const HeroComponent = () => {
   return (
-    <div className={`relative mt-[4.25rem]`}>
+    <div className={`relative`}>
       <img
         src="/bgCover.png"
         alt=""
@@ -34,4 +33,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroComponent;
