@@ -1,3 +1,4 @@
+import AlphaPath from "@/components/AlphaPath";
 import CryptoDict from "@/components/CryptoDict";
 import EssentialPath from "@/components/EssentialPath";
 import HeroComponent from "@/components/HeroComponent";
@@ -6,15 +7,15 @@ import TopCreatorSec from "@/components/TopCreatorSec";
 import { useState } from "react";
 
 const index = () => {
-  const [sec1, setSec1] = useState(false);
+  const [isActive, setIsActive] = useState("essentials");
 
   return (
     <div className={`relative mt-[4.25rem]`}>
       <HeroComponent />
-      <EssentialPath />
+      {isActive === "essentials" ? <EssentialPath /> : <AlphaPath />}
       <TopCreatorSec />
       <CryptoDict />
-      <SectionalBtn />
+      <SectionalBtn isActive={isActive} setIsActive={setIsActive} />
     </div>
   );
 };
