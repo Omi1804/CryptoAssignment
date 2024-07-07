@@ -3,11 +3,11 @@ import styles from "@/styles/hero.module.css";
 
 const CryptoDict = () => {
   return (
-    <div className="pt-[4rem]  px-[9rem] my-4 border-t border-[rgba(255,255,255,.15)] flex justify-center items-center flex-col">
-      <h1 className="text-white font-medium text-[1.75rem] ">
+    <div className="pt-[4rem] px-[9rem] my-4 border-t border-[rgba(255,255,255,.15)] flex justify-center items-center flex-col">
+      <h1 className="text-white font-medium text-[1.55rem] ">
         Crypto Dictionary
       </h1>
-      <p className="text-[#ffffff74] my-2 text-lg tracking-wide">
+      <p className="text-[#ffffff74] my-1 text-base tracking-wide">
         Your one-stop to catch up on all crypto terms
       </p>
 
@@ -26,7 +26,7 @@ const CryptoDict = () => {
             <h2>Web3 + Degen Glossary</h2>
             <p className="mt-2">Your own crypto dictionary</p>
           </div>
-          <div className="w-[5rem] h-[5rem] rounded-full  flex justify-center items-center z-50 backdrop-blur-3xl bg-[#5251485e]">
+          <div className="w-[4rem] h-[4rem] rounded-full  flex justify-center items-center z-50 backdrop-blur-3xl bg-[#52514845]">
             <span className="material-symbols-outlined text-[1.8rem] font-light">
               import_contacts
             </span>

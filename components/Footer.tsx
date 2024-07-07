@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-[rgba(255,255,255,.15)] my-10 px-[6rem] py-[1rem]">
+    <footer className="border-t border-[rgba(255,255,255,.15)] my-1 px-[6rem] py-[1rem]">
       <div className="flex border-b border-[rgba(255,255,255,.15)] py-5 mb-3">
         <div className="w-[33%] py-3">
           <div className=" w-[7rem] h-auto object-contain my-4">
@@ -87,8 +87,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-10 border-b border-[rgba(255,255,255,.15)] mb-3">
-        <p className="w-[95%] text-[#7d7d7d]  font-medium text-[1.03rem]">
+      <div className="py-6 border-b border-[rgba(255,255,255,.15)] mb-3">
+        <p className="w-[95%] text-[#7d7d7d]  font-medium text-sm">
           <span className="text-[#ffffffbe] ">Disclaimer: </span>
           Crypto Products, Virtual Digital Assets, and NFTs are unregulated and
           can be highly risky. There may be no regulatory recourse for any loss
