@@ -5,11 +5,11 @@ const Path3 = () => {
   return (
     <div className=" px-7 pb-10 max-w-[1350px] mx-auto relative">
       {/* Svgs  */}
-      <div className=" w-[60rem] top-[-22rem] left-[-14rem] absolute hidden md:block ">
+      <div className=" w-[60rem] top-[-22rem] left-[-14rem] absolute hidden lg:block ">
         <img src="/svgs/path3.svg" alt="" className="w-full h-full " />
       </div>
-      <div className={`w-[800px] ml-auto relative flex`}>
-        <div className="w-[350px] ">
+      <div className={`w-[800px] lg:ml-auto relative lg:flex`}>
+        <div className="w-[350px] mx-auto lg:mx-0">
           <div className="py-2 px-4 border  border-[#ffffff17] rounded-xl bg-[#ffffff1b]">
             <div className="flex items-center gap-2">
               <span className="material-symbols-outlined text-[#fa8922] font-light text-xl">
@@ -111,10 +111,10 @@ const Path3 = () => {
           </div>
         </div>
 
-        <div className=" w-[16rem] top-[27.5rem] left-[22rem] absolute z-[-1] hidden md:block">
+        <div className=" w-[16rem] top-[27.5rem] left-[22rem] absolute z-[-1] hidden lg:block">
           <img src="/svgs/line.svg" alt="" className="w-full h-full " />
         </div>
-        <div className="w-[350px] ml-[5rem] z-10">
+        <div className="w-[350px] lg:ml-[5rem] mx-auto z-10">
           <div className="border border-[#ffffff39] rounded-lg my-14 bg-[#ffffff10]">
             <div className="flex items-center gap-2 py-3 px-4">
               <p className="text-[0.9rem] font-medium text-[#ffffff5b]">

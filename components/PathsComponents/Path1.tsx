@@ -58,7 +58,7 @@ const Path1 = () => {
 
       {/* 2nd container */}
       <div
-        className={`w-[600px] relative border border-[#ffffff17] rounded-3xl mx-auto md:mx-0 ${
+        className={`w-[600px] relative border border-[#ffffff17] rounded-3xl mx-auto lg:mx-0 ${
           active ? "rounded-bl-none rounded-br-none" : ""
         }  ${styles.pathCont}`}
       >
@@ -124,7 +124,7 @@ const Path1 = () => {
         />
       </div>
       {/* 2nd container  */}
-      <div className="w-[300px] ml-auto  mr-[1rem]">
+      <div className="w-[300px] lg:ml-auto lg:mr-[1rem] mx-auto">
         {/* tick */}
         <div className=" my-4 ml-10 w-[3.5rem] h-[3.5rem] border border-[#ffffff49] rounded-full flex items-center justify-center bg-[#ffffff16]">
           <span className="material-symbols-outlined text-[2rem] font-light text-[#ffffff49]">

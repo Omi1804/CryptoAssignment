@@ -11,7 +11,7 @@ const index = () => {
   const [isActive, setIsActive] = useState("essentials");
 
   return (
-    <div className={`relative mt-[4.25rem] ${styles.homepage}`}>
+    <div className={`relative lg:mt-[4rem] mt-[3.3rem] ${styles.homepage}`}>
       <HeroComponent />
       {isActive === "essentials" ? <EssentialPath /> : <AlphaPath />}
       <TopCreatorSec />

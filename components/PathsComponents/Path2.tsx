@@ -65,14 +65,14 @@ const Path2 = () => {
       </div>
       {/* 2nd container */}
       <div
-        className={`w-[600px] ml-auto mr-[18rem]  relative border border-[#ffffff17] rounded-3xl ${
+        className={`w-[600px] lg:ml-auto lg:mr-[18rem] mx-auto  relative border border-[#ffffff17] rounded-3xl ${
           active ? "rounded-bl-none rounded-br-none" : ""
         }  ${styles.pathCont}`}
       >
         {/* 3rd level container */}
 
         <div
-          className={`flex items-center gap-2 justify-center p-7 relative  cursor-pointer rounded-3xl hover:bg-[#ffffff0d] duration-300`}
+          className={`flex items-center gap-2 justify-center p-7 relative  cursor-pointer rounded-3xl hover:bg-[#ffffff0d] duration-300 `}
           onClick={() => setActive((prev) => !prev)}
         >
           <div className="h-[180px] flex-shrink-0 mx-3 w-[170px] border border-[#ffffff64] bg-[#222021] rounded-2xl p-2 bg-[rgba(255, 255, 255, .05)]">
@@ -121,7 +121,7 @@ const Path2 = () => {
           </div>
         )}
       </div>
-      <div className="w-[300px] mr-auto ml-[1rem] z-10">
+      <div className="w-[300px] lg:mr-auto lg:ml-[1rem] mx-auto z-10">
         {/* tick */}
         <div className=" my-4 ml-10 w-[3.5rem] h-[3.5rem] border border-[#ffffff49] rounded-full flex items-center justify-center bg-[#ffffff16] z-10">
           <span className="material-symbols-outlined text-[2rem] font-light text-[#ffffff49]">
