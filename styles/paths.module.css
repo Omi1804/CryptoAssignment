@@ -8,3 +8,10 @@
   transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.111);
 } */
+
+.dottedBg {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--Black-20, rgba(0, 0, 0, 0.375));
+  box-shadow: -2px -2px 5px #0006 inset, 2px 2px 5px #0006 inset;
+}
