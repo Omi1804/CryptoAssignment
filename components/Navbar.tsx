@@ -16,22 +16,22 @@ const Navbar = () => {
 
       <div className="mx-6 hidden md:block">
         <ul className="flex justify-center items-center">
-          <li className="mx-4 text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
+          <li className="mx-1 w-[5rem]  text-center text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
             Compass
           </li>
-          <li className="mx-4 text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
+          <li className="mx-1 w-[5rem]  text-center text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
             Explore
           </li>
-          <li className="mx-4 text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
+          <li className="mx-1 w-[8.5rem]  text-center text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
             Academy
             <span className="bg-[#6434E9] rounded-lg text-white px-2 py-1 text-sm mx-2">
               New
             </span>
           </li>
-          <li className="mx-4 text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
+          <li className="mx-1 w-[5rem]  text-center text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
             NFTs
           </li>
-          <li className="mx-4 text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
+          <li className="mx-1 w-[7rem]  text-center text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
             For Projects
           </li>
         </ul>
