@@ -46,9 +46,9 @@ const Path1 = () => {
 
   return (
     //bigest container 1st path
-    <div className="relative max-w-[1350px] mx-auto ">
+    <div className="relative max-w-[1350px] mx-auto">
       {/* Svg Path  */}
-      <div className="absolute top-[40%] left-[-150px] w-[10rem]">
+      <div className="absolute top-[15%] left-[-150px] w-[10rem] hidden lg:block">
         <img
           src="/svgs/path1.svg"
           alt=""
@@ -58,7 +58,7 @@ const Path1 = () => {
 
       {/* 2nd container */}
       <div
-        className={`w-[600px] relative border border-[#ffffff17] rounded-3xl ${
+        className={`w-[600px] relative border border-[#ffffff17] rounded-3xl mx-auto md:mx-0 ${
           active ? "rounded-bl-none rounded-br-none" : ""
         }  ${styles.pathCont}`}
       >
@@ -116,7 +116,7 @@ const Path1 = () => {
       </div>
 
       {/* Svg Path  */}
-      <div className="absolute w-[50rem] top-[80%] left-[20%] z-[-1]">
+      <div className="absolute w-[55rem]  top-[28%] left-[11%] z-[-1] hidden lg:block">
         <img
           src="/svgs/path2.svg"
           alt=""

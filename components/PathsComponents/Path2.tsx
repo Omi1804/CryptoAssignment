@@ -46,6 +46,23 @@ const Path2 = () => {
 
   return (
     <div className="my-10 px-7 py-10 max-w-[1350px] mx-auto relative">
+      {/* Svg container */}
+      <div className="absolute w-[55rem] top-[-19rem] left-[47rem] hidden lg:block">
+        <img
+          src="/svgs/path4.svg"
+          alt=""
+          className="w-full h-full object-contain"
+        />
+      </div>
+
+      {/* Svg container  */}
+      <div className="absolute w-[17rem] top-[5rem] left-[13rem] hidden lg:block">
+        <img
+          src="/svgs/path5.svg"
+          alt=""
+          className="w-full h-full object-contain"
+        />
+      </div>
       {/* 2nd container */}
       <div
         className={`w-[600px] ml-auto mr-[18rem]  relative border border-[#ffffff17] rounded-3xl ${
@@ -104,19 +121,19 @@ const Path2 = () => {
           </div>
         )}
       </div>
-      <div className="w-[300px] mr-auto ml-[1rem]">
+      <div className="w-[300px] mr-auto ml-[1rem] z-10">
         {/* tick */}
-        <div className=" my-4 ml-10 w-[3.5rem] h-[3.5rem] border border-[#ffffff49] rounded-full flex items-center justify-center bg-[#ffffff16]">
+        <div className=" my-4 ml-10 w-[3.5rem] h-[3.5rem] border border-[#ffffff49] rounded-full flex items-center justify-center bg-[#ffffff16] z-10">
           <span className="material-symbols-outlined text-[2rem] font-light text-[#ffffff49]">
             check
           </span>
         </div>
 
-        <div className="relative border border-[#ffffff65] rounded-3xl  p-[.4rem] w-[10rem] h-[12rem]">
+        <div className="relative border border-[#ffffff65] rounded-3xl  p-[.4rem] w-[10rem] h-[12rem] z-10">
           <img
             src="/pathImg10.png"
             alt=""
-            className="w-full h-full object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl z-10"
           />
           <div className="absolute bottom-[-1rem]  border border-[#ffffff65] right-[-1rem] w-[3.5rem] h-[3.5rem] rounded-full flex items-center justify-center bg-[#131313]">
             <span className="material-symbols-outlined text-[#ffffff9e]">

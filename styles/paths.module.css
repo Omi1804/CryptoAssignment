@@ -15,3 +15,15 @@
   background: var(--Black-20, rgba(0, 0, 0, 0.375));
   box-shadow: -2px -2px 5px #0006 inset, 2px 2px 5px #0006 inset;
 }
+
+.pathBtn {
+  padding: 10px 0;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--White-07, rgba(255, 255, 255, 0.07));
+  background: var(--White-07, rgba(255, 255, 255, 0.07));
+  color: var(--White-60, rgba(255, 255, 255, 0.6));
+  text-align: center;
+  line-height: 20px;
+  margin-top: 12px;
+}

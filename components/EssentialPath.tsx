@@ -6,7 +6,7 @@ import Path3 from "./PathsComponents/Path3";
 
 const EssentialPath = () => {
   return (
-    <div className="relative mt-[-165px]">
+    <div className="relative mt-8 md:mt-[-165px]">
       <Path1 />
       <Path2 />
       <Path3 />

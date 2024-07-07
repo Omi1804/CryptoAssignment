@@ -4,7 +4,7 @@ import styles from "@/styles/headers.module.css";
 const Navbar = () => {
   return (
     <nav
-      className={`fixed z-50 top-0 left-0 w-full px-[5.5rem] flex items-center border-b border-b-[rgba(255,255,255,.15)] justify-center ${styles.navbar}`}
+      className={`fixed z-50 top-0 left-0 w-full px-[3rem] md:px-[5.5rem] flex items-center border-b border-b-[rgba(255,255,255,.15)] justify-between md:justify-center p-1 md:p-0 ${styles.navbar}`}
     >
       <div className=" w-[7rem] h-auto object-contain">
         <img
@@ -14,8 +14,8 @@ const Navbar = () => {
         />
       </div>
 
-      <div className="mx-6">
-        <ul className="flex justify-center items-cente">
+      <div className="mx-6 hidden md:block">
+        <ul className="flex justify-center items-center">
           <li className="mx-4 text-[#ffffffb3] text-[1.1rem] font-normal py-[1.3rem] cursor-pointer">
             Compass
           </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="bg-[#181818] py-2 px-4 flex items-center justify-center rounded-3xl w-[35%] mx-1 border border-[rgba(255,255,255,.15)]">
+      <div className="bg-[#181818] py-2 px-4 flex items-center justify-center rounded-3xl md:w-[35%] w-[70%] md:mx-1 mx-1 border border-[rgba(255,255,255,.15)]">
         <span className="material-symbols-outlined text-[#fff6] font-light text-[1.7rem]">
           search
         </span>
@@ -57,7 +57,7 @@ const Navbar = () => {
       </div>
 
       <div>
-        <button className="bg-white text-center text-black rounded-md py-[6px] shadow hover:bg-[#dddcdc] px-[24px]  text-[16px] font-medium cursor-pointer transition duration-300">
+        <button className="bg-white text-center w-[7rem] text-black rounded-md py-[6px] shadow hover:bg-[#dddcdc] px-[24px]  text-[16px] font-medium cursor-pointer transition duration-300">
           Sing In
         </button>
       </div>
