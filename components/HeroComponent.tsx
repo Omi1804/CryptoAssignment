@@ -5,13 +5,13 @@ const HeroComponent = () => {
     <div className={`relative`}>
       <img
         src="/bgCover.png"
-        alt=""
+        alt="background"
         className="relative w-full  h-full object-cover"
       />
       <div
         className={`absolute mix-blend-screen flex flex-col items-center justify-center ${styles.heroContent}`}
       >
-        <img src="/academyLogo.gif" alt="" className="w-[16rem]" />
+        <img src="/academyLogo.gif" alt="Academy Logo" className="w-[16rem]" />
         <div className="mt-6 text-center flex flex-col items-center justify-center">
           <p className="text-[#ffffffca] mix-blend-plus-lighter text-[22px] font-normal text-center">
             Intract users{" "}
