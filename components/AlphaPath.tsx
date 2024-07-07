@@ -1,7 +1,7 @@
 import React from "react";
 
 const AlphaPath = () => {
-  return <div>AlphaPath</div>;
+  return <div></div>;
 };
 
 export default AlphaPath;

@@ -12,7 +12,7 @@ const index = () => {
 
   return (
     <div className={`relative lg:mt-[4rem] mt-[3.3rem] ${styles.homepage}`}>
-      <HeroComponent />
+      <HeroComponent isActive={isActive} />
       {isActive === "essentials" ? <EssentialPath /> : <AlphaPath />}
       <TopCreatorSec />
       <CryptoDict />

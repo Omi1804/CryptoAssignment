@@ -2,6 +2,32 @@
   left: 50%;
   transform: translate(-50%, -50%);
   top: 42%;
+  animation: downup 0.3s ease-in-out;
+}
+.heroContent2 {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 22%;
+  animation: updown 0.2s ease-in;
+}
+
+@keyframes downup {
+  0% {
+    top: 22%;
+  }
+
+  100% {
+    top: 42%;
+  }
+}
+@keyframes updown {
+  0% {
+    top: 30%;
+  }
+
+  100% {
+    top: 22%;
+  }
 }
 
 .distImg {
